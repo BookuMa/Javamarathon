@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/css/input.css">
-<title>Insert title here</title>
+<title>名前の入力</title>
 </head>
 <body>
 	<header>
@@ -13,7 +13,7 @@
 	</header>
 	<div>
 	<form method="post" action="${pageContext.request.contextPath}/name-receiver/receive" id="name-form">
-		<span>名前：</span><input type="text" name="name"><br>
+		<div>名前：<input type="text" name="name"></div>
 		<input type="submit" value="送信">
 	</form>
 	</div>
